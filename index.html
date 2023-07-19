@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather app</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dist/output.css">
 </head>
 <body>
-    <div class="container">
-        <form action="/" method="post">
-            <img src="https://www.creativefabrica.com/wp-content/uploads/2021/03/31/weather-icon-illustration03-Graphics-10205167-1.jpg" alt="">
-            <label for="cityInput">the City </label>
-            <input id="cityInput" type="text" name="cityName">
+    <div class="appContainer">
+        <form action="/" method="post" autocomplete="off" >
+            <img class="cloudImg" src="https://www.creativefabrica.com/wp-content/uploads/2021/03/31/weather-icon-illustration03-Graphics-10205167-1.jpg" alt="">
+            <input placeholder="Enter The City" class="cityinput" id="cityInput" type="text" name="cityName">
             <br>
-            <button type="submit"> Let's see</button>
+            <button class="btn" type="submit"> Let's see</button>
         </form>
     </div>
 </body>
